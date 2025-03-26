@@ -5,6 +5,7 @@ use crate::{
     multicast::{McGroupSetupAnsCreator, McGroupSetupAnsPayload, McGroupSetupReqPayload},
     parser::McAddr,
 };
+use core::mem::size_of;
 
 #[derive(Debug)]
 pub struct Session {
